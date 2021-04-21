@@ -18,5 +18,8 @@
     "url": "https://github.com/yusitnikov/fix-webm-duration/issues"
   },
   "homepage": "https://github.com/yusitnikov/fix-webm-duration",
-  "devDependencies": {}
+  "devDependencies": {
+    "webpack": "^5.34.0",
+    "webpack-cli": "^4.6.0"
+  }
 }
