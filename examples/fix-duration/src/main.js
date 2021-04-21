@@ -39,6 +39,7 @@ import WebmFile from "../../../WebmFile"
         recordedBlobs.length = 0;
 
         let stream = await navigator.mediaDevices.getUserMedia({ video: true, audio: true });
+        document.querySelector("#local-stream-player").srcObject = stream;
         recorder = new MediaRecorder(stream);
         recorder.ondataavailable = ondataavailable_handler;
         recorder.onstop = recorder_stopHandler;
