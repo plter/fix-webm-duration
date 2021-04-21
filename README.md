@@ -167,4 +167,4 @@ import WebmFile from "../../../WebmFile"
 webpack ./main.js
 ```
 
-You can also checkout the example here [examples/fix-duration](examples/fix-duration)  
+You can also checkout the example here [https://plter.github.io/fix-webm-duration/examples/fixduration/](https://plter.github.io/fix-webm-duration/examples/fixduration/)  
