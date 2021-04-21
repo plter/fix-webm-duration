@@ -9,9 +9,23 @@
 </head>
 
 <body>
-    <video width="480" height="360" controls id="player" autoplay style="background-color: black;"></video>
-    <div><button id="btnrecord">Record</button><button id="btnstop">Stop</button>
+    <div>
+        <div style="display: inline-block;">
+            <div style="background-color: #ccc;text-align: center;">Preview Local Camera</div>
+            <video width="350" height="240" autoplay muted style="background-color: black;"
+                id="local-stream-player"></video>
+        </div>
+        <div style="display: inline-block;">
+            <div style="background-color: #ccc;text-align: center;">Recorded webm player</div>
+            <video width="360" height="240" controls id="player" autoplay style="background-color: black;"></video>
+        </div>
     </div>
+    <div>
+        <button id="btnrecord">Record</button>
+        <button id="btnstop">Stop</button>
+        <a target="_blank" href="https://github.com/plter/fix-webm-duration">Github repo</a>
+    </div>
+
     <script src="dist/main.js"></script>
 </body>
 
